@@ -1,0 +1,12 @@
+{
+  "name": "eyes-and-ears-prototype",
+  "version": "1.0.0",
+  "scripts": {
+    "postexport": "ts-node cmd/customizePeerId.ts"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.28",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
+  }
+}
